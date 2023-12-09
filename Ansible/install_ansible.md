@@ -5,7 +5,6 @@ sudo apt-add-repository ppa:ansible/ansible
 sudo apt update
 sudo apt install ansible
 
-
 #path of your installation
 /etc/ansible
 
@@ -26,9 +25,8 @@ sudo apt install ansible
  visudo ansible
 
  
- #write this thing for more privilage for ansible user
- # in /etc/sudoers.d
-  nano ansible
+ #write this thing for more privilage for ansible user in /etc/sudoers.d
+ nano ansible
  ansible ALL=(ALL:ALL) NOPASSWD:ALL
  
  
